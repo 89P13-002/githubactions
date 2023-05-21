@@ -2,6 +2,7 @@ name: Show Push Message
 
 on:
   pull_request:
+  
     branches:
       - main # Replace with your desired branch name
 
