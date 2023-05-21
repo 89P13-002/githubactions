@@ -2,6 +2,7 @@ name: Show Push Message
 
 on:
   push:
+  fork:
     branches:
       - main # Replace with your desired branch name
 
