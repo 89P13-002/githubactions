@@ -1,0 +1,14 @@
+name: Show Push Message
+
+on:
+  push:
+    branches:
+      - main # Replace with your desired branch name
+
+jobs:
+  show_message:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Show Push Message
+        run: echo "A push has been made to the repository."
